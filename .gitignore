@@ -1,0 +1,53 @@
+# Ignore arquivos do Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Ignore os diretórios de build do .NET
+bin/
+obj/
+
+# Dependências NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Logs e arquivos de banco de dados
+*.log
+*.ldf
+*.mdf
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações específicas do Visual Studio Code
+*.code-workspace
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Logs de execução e arquivos gerados
+logs/
+*.log
+
+# Resultados de testes e relatórios
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage.opencover.xml
+
+# Arquivos do Resharper e Rider
+.idea/
+*.sln.iml
+
+# Configurações locais
+secrets.json
+appsettings.*.json
+
+# Outras pastas específicas de IDEs
+_ReSharper*/
